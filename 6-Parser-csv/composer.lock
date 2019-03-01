@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b29affcfc974bbbd22c6825b4b4191cf",
+    "packages": [
+        {
+            "name": "jamesgordo/php-csv-parser",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jamesgordo/php-csv-parser.git",
+                "reference": "9c75f94ba0f475e26ce58c5afcc1f1698bd94ef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jamesgordo/php-csv-parser/zipball/9c75f94ba0f475e26ce58c5afcc1f1698bd94ef3",
+                "reference": "9c75f94ba0f475e26ce58c5afcc1f1698bd94ef3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JamesGordo\\CSV\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Gordo",
+                    "email": "hello@jamesgordo.com"
+                }
+            ],
+            "description": "Parses a CSV File into standard Class with the header as Object Properties.",
+            "keywords": [
+                "csv parser",
+                "php",
+                "php csv parser"
+            ],
+            "time": "2017-06-06T02:23:33+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
